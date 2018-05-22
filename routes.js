@@ -1,6 +1,7 @@
 var auth = require('./auth'),
   reports = require('./controllers/reportController'),
-  users = require('./controllers/userController');
+  users = require('./controllers/userController'),
+  birds = require('./controllers/birdController'),
   path = require('path');
 
 var fs = require('fs');
@@ -16,6 +17,7 @@ module.exports = function(app) {
   app.get('/api/reports/:reportId', reports.getReport);
   app.post('/api/reports', reports.saveReport);
   // app.get('/api/species/search', reports.searchSpecies);
+  app.get('/api/birds', birds.getBirds);
   
   app.post('/api/logout', function(req, res) {
     req.logout();

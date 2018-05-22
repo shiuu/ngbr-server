@@ -13,6 +13,7 @@ var users = [{
     userName: "test",
     firstName: "King",
     lastName: "Fisher"
-  }];
+  }
+];
   
-  module.exports = users;
+module.exports = users;
