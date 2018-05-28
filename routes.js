@@ -33,13 +33,17 @@ module.exports = function(app) {
   });
 
   app.get('/reports/*', function(req, res) {
-    res.sendFile(path.resolve(__dirname + '/../../index.html'));
+    res.sendFile(path.resolve(__dirname + '/../../dist/index.html'));
   });
   app.get('/user/*', function(req, res) {
-    res.sendFile(path.resolve(__dirname + '/../../index.html'));
+    res.sendFile(path.resolve(__dirname + '/../../dist/index.html'));
   });
   app.get('/404', function(req, res) {
-    res.sendFile(path.resolve(__dirname + '/../../index.html'));
+    res.sendFile(path.resolve(__dirname + '/../../dist/index.html'));
+  });
+
+  app.get('/', function(req, res) {
+    res.sendFile(path.resolve(__dirname + '/../../dist/index.html'));
   });
   
   app.get('*', function(req, res) {
