@@ -191,7 +191,11 @@ var reports = [
         name: 'Plains-wanderer',
         count: '4',
         comments: 'Seen 2 males and 2 females at close range.'
-      }
+      },
+      { id: 370103,
+        name: "Grey Teal",
+        count: "hundreds"
+      },
     ]
   },
   {

@@ -1,5 +1,8 @@
 var birds = [
   { id: 120101,     uncommon: false,     name: "Little Pied Cormorant" },
+  { id: 120102,     uncommon: true,      name: "Pied Cormorant" },
+  { id: 120103,     uncommon: true,      name: "Little Black Cormorant" },
+  { id: 120104,     uncommon: true,      name: "Great Cormorant" },
 
   { id: 130101,     uncommon: false,     name: "White-faced Heron" },
   { id: 130102,     uncommon: false,     name: "Nankeen Night Heron" },
@@ -23,7 +26,7 @@ var birds = [
   { id: 180101,     uncommon: false,     name: "Sulphur-crested Cockatoo" },
   { id: 180102,     uncommon: true,       name: "Major Mitchell's Cockatoo"},
   { id: 180103,     uncommon: true,       name: "Yellow-tailed Black-Cockatoo"},
-  { id: 180104,     uncommon: false,      name: "Corella"},
+  { id: 180104,     uncommon: false,      name: "Little Corella"},
 
   { id: 180201,     uncommon: false,     name: "Rainbow Lorikeet" },
   { id: 180202,     uncommon: true,       name: "Turquoise Parrot"},
@@ -34,7 +37,7 @@ var birds = [
   { id: 210101,     uncommon: true,      name: "Tawny Frogmouth"},
 
   { id: 250101,     uncommon: true,     name: "Sacred Kingfisher" },
-  { id: 250102,     uncommon: false,    name: "Kookaburra" },
+  { id: 250152,     uncommon: false,    name: "Laughing Kookaburra" },
   { id: 250201,     uncommon: true,     name: "Rainbow Bee-eater" },
   { id: 250301,     uncommon: true,     name: "Dollarbird" },
 
@@ -60,6 +63,7 @@ var birds = [
   { id: 271001,     uncommon: false,     name: "Magpie-lark" },
   { id: 271101,     uncommon: false,     name: "Welcome Swallow" },
   { id: 271201,     uncommon: false,     name: "Sparrow" },
+  { id: 271301,     uncommon: false,     name: "Australian Raven" },
   
   { id: 370101,     uncommon: false,     name: "Australian Wood Duck" },
   { id: 370102,     uncommon: false,     name: "Pacific Black Duck" },
